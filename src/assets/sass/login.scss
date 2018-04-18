@@ -1,0 +1,149 @@
+.login_view {
+  .login {
+    width: 1000px;
+    height: 600px;
+    position: absolute;
+    background: url('../../assets/images/login-bg.png') no-repeat;
+    background-size: contain;
+  }
+  .login_template {
+    background: #ffffff;
+    float: right;
+    width: 575px;
+    height: 600px;
+    position: relative;
+    .logo {
+      position: absolute;
+      left: -325px;
+      bottom: 53px;
+      img {
+        width: 240px;
+        height: 65px;
+      }
+    }
+    form {
+      padding: 100px 115px 0px 110px;
+    }
+    .error_tips {
+      position: absolute;
+      width: 350px;
+      height: 40px;
+      top: 13px;
+      left: 110px;
+      background: #e75757;
+      opacity: 0.5;
+      color: #ffffff;
+      font-size: 12px;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      line-height: 40px;
+      text-align: center;
+    }
+    h4 {
+      font-size: 30px;
+      color: #3c4259;
+      height: 30px;
+      line-height: 30px;
+      margin-bottom: 35px;
+    }
+    h4 span {
+      font-size: 20px;
+      color: #5fb897;
+      margin-left: 10px;
+    }
+    .form-group {
+      min-height: 60px;
+      position: relative;
+    }
+    .form-group input {
+      width: 348px;
+      height: 38px;
+      border: 1px solid #dadada;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      text-indent: 15px;
+    }
+    .Captcha {
+      .code {
+        width: 178px;
+        margin-right: 20px;
+      }
+      .codeImg {
+        width: 150px;
+        height: 40px;
+        cursor: pointer;
+      }
+    }
+    .operate {
+      height: 20px;
+      line-height: 20px;
+      margin-bottom: 15px;
+      .choose {
+        color: #333333;
+        font-size: 14px;
+        height: 20px;
+        line-height: 20px;
+      }
+      .choose input {
+        width: 18px;
+        height: 18px;
+        border: 1px solid #dadada;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        margin-right: 10px;
+      }
+      .forget_pwd {
+        color: #999999;
+        font-size: 14px;
+      }
+    }
+    .btn_1 {
+      display: block;
+      height: 40px;
+      width: 348px;
+      line-height: 38px;
+      text-align: center;
+      font-size: 14px;
+      color: #ffffff;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+    }
+    .btn_1.disabled {
+      border-color: #e8e8e8;
+      background: #e8e8e8;
+      color: #999999;
+    }
+    .login, .register, .next, .reset {
+      background: #5fb897;
+      border: 1px solid #5fb897;
+    }
+    .login:hover, .register:hover, .next:hover, .reset:hover, .getcode:hover {
+      background: #46987a;
+    }
+    .btn_1.disabled:hover {
+      border-color: #e8e8e8;
+      background: #e8e8e8;
+      color: #999999;
+    }
+    .doregister, .dologin {
+      background: #ffffff;
+      border: 1px solid #5fb897;
+      color: #5fb897;
+    }
+    .doregister:hover, .dologin:hover {
+      background: #5fb897;
+      border: 1px solid #5fb897;
+      color: #ffffff;
+    }
+    .getcode {
+      width: 148px;
+      height: 38px;
+      background: #5fb897;
+      border: 1px solid #5fb897;
+    }
+  }
+}

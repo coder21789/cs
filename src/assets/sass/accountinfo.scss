@@ -1,0 +1,180 @@
+.accountInfo_view {
+  .filiter_view {
+    height: 55px;
+    background: #fafafa;
+    margin-bottom: 20px;
+    .menu {
+      width: 504px;
+      height: 55px;
+      margin: 0px auto;
+    }
+    .menu li {
+      width: 88px;
+      float: left;
+      margin-right: 120px;
+    }
+    .menu li:last-child {
+      margin-right: 0px;
+    }
+    .menu li a {
+      display: block;
+      width: 88px;
+      line-height: 55px;
+      text-align: center;
+      color: #9baebd;
+      font-size: 14px;
+    }
+    .menu li a:hover {
+      color: #3e445b;
+      border-bottom: 3px solid #5fb897;
+    }
+    .router-link-active {
+      color: #3e445b !important;
+      border-bottom: 3px solid #5fb897;
+    }
+  }
+  .main_content {
+    h4 {
+      font-size: 24px;
+      height: 24px;
+      line-height: 24px;
+      color: #333333;
+      text-indent: 145px;
+      padding-top: 65px;
+      margin-bottom: 24px;
+    }
+    padding-bottom: 210px;
+    form {
+      padding-left: 145px;
+      .form-group {
+        min-height: 70px;
+      }
+      .control-label {
+        width: 80px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+        color: #666666;
+      }
+      .control-label span {
+        margin-left: 5px;
+      }
+      .control-input {
+        height: 38px;
+        width: 298px;
+        border: 1px solid #f3f3f3;
+        text-indent: 15px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        background: #f3f3f3;
+      }
+      .control-input:focus {
+        background: #eef4f9;
+        border: 1px solid #eef4f9;
+      }
+      .checkList {
+        height: 40px;
+        line-height: 40px;
+      }
+      textarea {
+        width: 683px;
+        height: 78px;
+        padding: 15px;
+        border: 1px solid #f3f3f3;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        resize: none;
+      }
+      .edit {
+        width: 115px;
+        height: 40px;
+        display: block;
+        text-align: center;
+        line-height: 40px;
+        background: #5fb897;
+        font-size: 14px;
+        color: #ffffff;
+        margin-top: 35px;
+        margin-left: 80px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+      }
+      .edit:hover {
+        background: #46987a;
+      }
+    }
+  }
+  .IDinfo_view {
+    form {
+      .control-label {
+        width: 60px;
+        padding-right: 20px;
+      }
+      .idcard .control-label {
+        line-height: 20px;
+      }
+      .imgs {
+        margin-bottom: 30px;
+      }
+      .imgs li {
+        width: 200px;
+        float: left;
+        margin-right: 22px;
+      }
+      .imgs li .preview {
+        width: 198px;
+        height: 126px;
+        border: 1px solid #dadada;
+        margin-bottom: 6px;
+      }
+      .idcards .preview {
+        background: url('../../assets/images/idcard.png') no-repeat;
+        background-size: 56px 44px;
+        background-position: center;
+      }
+      .address .preview {
+        background: url('../../assets/images/address.png') no-repeat;
+        background-size: 56px 44px;
+        background-position: center;
+      }
+      .imgs:last-child li .preview {
+        
+      }
+      .imgs li .upload label {
+        height: 30px;
+        line-height: 30px;
+        color: #666666;
+        font-size: 14px;
+        margin-left: 30px;
+      }
+      .operates {
+        padding-left: 80px;
+        margin-top: 5px;
+      }
+      .operates a {
+        width: 115px;
+        height: 40px;
+        display: block;
+        text-align: center;
+        line-height: 40px;
+        font-size: 14px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+      }
+      .edit {
+        background: #5fb897;
+        color: #ffffff;
+        margin-top: 0px;
+        margin-left: 45px;
+      }
+      .cancel {
+        background: #f7f7fa;
+        color: #666666;
+      }
+    }
+  }
+}

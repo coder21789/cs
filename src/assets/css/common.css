@@ -1,0 +1,253 @@
+body {
+  background: #3c4259;
+}
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: "微软雅黑";
+  font-size: 14px;
+}
+p,h1,h2,h3,h4,h5,h6{
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.unvisible {
+  display: none;
+}
+*:focus { outline: none; }
+table {
+  width: 100%;
+  border:0px;
+  border-collapse:collapse;
+  border-spacing:0;
+}
+.container {
+  background: #eef4f9;
+  margin-top: 60px;
+  padding-bottom: 95px;
+}
+.main_content {
+  background: #ffffff;
+  width: 1200px;
+  margin: 0px auto;
+}
+.must {
+  color: #f85151;
+  font-size: 14px !important;
+}
+.file {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #5fb897;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  width: 83px;
+  height: 28px;
+  overflow: hidden;
+  color: #5fb897;
+  text-decoration: none;
+  text-align: center;
+  line-height: 28px;
+}
+.file input {
+  position: absolute;
+  width: 83px;
+  height: 28px;
+  font-size: 100px;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.file:hover {
+  background: #5fb897;
+  border-color: #5fb897;
+  color: #ffffff;
+  text-decoration: none;
+}
+.Pagination {
+  margin-top: 30px;
+}
+/* dialog */
+.dialog .panel_title {
+  height: 50px;
+  position: relative;
+  margin-bottom: 50px;
+}
+.dialog .panel_title label {
+  width: 3px;
+  height: 15px;
+  position: absolute;
+  top: 30px;
+  left: 35px;
+  background: #5fb897;
+}
+.dialog .panel_title h4 {
+  color: #333333;
+  font-size: 16px;
+  text-indent: 30px;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 30px;
+  text-indent: 50px;
+  height: 16px;
+  line-height: 16px;
+  font-weight: normal;
+}
+.dialog .panel_title .icon-cha {
+  position: absolute;
+  font-size: 16px;
+  right: 21px;
+  top: 15px;
+  color: #dadada;
+  cursor: pointer;
+}
+.dialog .panel_footer {
+  height:35px;
+  padding-bottom: 30px;
+}
+.dialog .panel_footer .operate {
+  min-width: 100px;
+  float: right;
+  height: 35px;
+  margin-right: 35px;
+}
+.dialog .panel_footer .operate li {
+  width: 110px;
+  float: left;
+  margin-right: 22px;
+}
+.dialog .panel_footer .operate li:last-child {
+  margin-right: 0px;
+}
+.dialog .panel_footer .operate li a {
+  display: block;
+  line-height: 35px;
+  height: 35px;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  background: #5fb897;
+  color: #e9eef6;
+}
+.dialog .panel_footer .operate li a.cancel {
+  background: #ffffff;
+  color: #5fb897;
+}
+.error_tips {
+  color: #e75757;
+  font-size: 12px;
+  line-height: 20px;
+}
+/* vue-layer reset */
+.notify .notify-alert h2.notice-title {
+  display: none;
+}
+/*element-ui reset*/
+.el-select-dropdown__item a {
+  font-size: 14px;
+  color: #333333;
+}
+.el-input__inner {
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #dadada;
+}
+#time_select .el-input__inner,
+#Report_type .el-input__inner {
+  border: 0px;
+}
+.el-input__inner:hover,
+.el-select .el-input__inner:focus {
+  border: 1px solid #dadada;
+}
+.el-checkbox__input.is-checked .el-checkbox__inner {
+  background: #5fb897;
+  color: #5fb897;
+}
+.el-checkbox__inner:hover {
+  border-color: #5fb897;
+}
+.el-pager li {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin-left: 5px;
+  border: 1px solid #d8e1e9;
+}
+.el-pager li.active+li {
+  border-left: 1px solid #d8e1e9;
+}
+.el-pagination button {
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+}
+.el-pagination .btn-prev {
+  border: 1px solid #d8e1e9;
+}
+.el-pagination .btn-next {
+  margin-left: 5px;
+  border-left: 1px solid #d8e1e9;
+}
+.el-pager li.active {
+  background: #5fb897;
+  border-color: #5fb897;
+}
+.el-pager li:hover,
+.el-pagination button:hover {
+  color: #5fb897;
+}
+.el-select-dropdown__item.selected,
+.el-select-dropdown__item.selected.hover,
+.el-select-dropdown__item.hover {
+  background: #f4f8fb;
+  color: #333333;
+}
+.center .el-input__inner {
+  text-align: center;
+}
+#agree .el-checkbox__label {
+  font-size: 12px;
+  color: #999999;
+}
+#agree .el-checkbox__label a {
+  font-size: 12px;
+  color: #333333;
+}

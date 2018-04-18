@@ -1,0 +1,348 @@
+.userinfo_view {
+  .filiter_view {
+    height: 55px;
+    background: #fafafa;
+    margin-bottom: 20px;
+    .menu {
+      width: 230px;
+      height: 55px;
+      margin: 0px auto;
+    }
+    .menu li {
+      width: 60px;
+      float: left;
+      margin-right: 110px;
+    }
+    .menu li:last-child {
+      margin-right: 0px;
+    }
+    .menu li a {
+      display: block;
+      width: 60px;
+      line-height: 55px;
+      text-align: center;
+      color: #9baebd;
+      font-size: 14px;
+    }
+    .menu li a:hover {
+      color: #3e445b;
+      border-bottom: 3px solid #5fb897;
+    }
+    .router-link-active {
+      color: #3e445b !important;
+      border-bottom: 3px solid #5fb897;
+    }
+  }
+  .Ubasicinfo_view {
+    padding-bottom: 350px;
+    h4 {
+      font-size: 24px;
+      color: #333333;
+      text-indent: 145px;
+      padding-top: 65px;
+      margin-bottom: 45px;
+    }
+    form {
+      padding-left: 145px;
+      .form-group {
+        padding-bottom: 30px;
+      }
+      .tli {
+        font-size: 14px;
+        color: #666666;
+        margin-bottom: 10px;
+      }
+      .tli label {
+        color: #999999;
+        font-size: 12px;
+      }
+      .control-input {
+        width: 298px;
+        height: 38px;
+        border: 1px solid #f3f3f3;
+        background: #ffffff;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        margin-right: 25px;
+        text-indent: 15px;
+      }
+      .readonly {
+        background: #f3f3f3;
+        border-color: #f3f3f3;
+        color: #999999;
+      }
+      .control-input:focus {
+        background: #eef4f9;
+        border: 1px solid #eef4f9;
+      }
+      .btn {
+        display: block;
+        width: 83px;
+        height: 38px;
+        line-height: 36px;
+        text-align: center;
+        padding: 0px;
+      }
+      .sure {
+        background: #5fb897;
+        color: #ffffff;
+        border: 1px solid #5fb897;
+      }
+      .sure:hover {
+        background: #46987a;
+        border-color: #46987a;
+      }
+      .edit {
+        background: #ffffff;
+        color: #5fb897;
+        border: 1px solid #5fb897;
+      }
+      .edit:hover {
+        background: #5fb897;
+        color: #ffffff;
+      }
+    }
+  }
+  .Ubankinfo_view {
+    .operate {
+      position: relative;
+      margin-bottom: 20px;
+      height: 70px;
+    }
+    .addBank {
+      width: 120px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      font-size: 14px;
+      display: block;
+      background: #5fb897;
+      color: #ffffff;
+      position: absolute;
+      right: 150px;
+      top: 30px;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+    }
+    .addBank:hover {
+      background: #46987a;
+    }
+    .banklist {
+      padding: 0px 150px;
+      padding-bottom: 95px;
+    }
+    .banklist li {
+      float: left;
+      width: 280px;
+      margin-right: 30px;
+      margin-bottom: 50px;
+    }
+    .banklist li:nth-child(3n) {
+      margin-right: 0px;
+    }
+    .banklist li .item {
+      padding: 30px;
+      display: block;
+      background: #eef4f9;
+      cursor: pointer;
+      position: relative;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+    }
+    .banklist li .item .isDefault {
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      width: 45px;
+      height: 21px;
+      background: #5fb897;
+      color: #ffffff;
+      line-height: 21px;
+      text-align: center;
+    }
+    .banklist li .item:hover {
+      .mask, .btn {
+        display: block;
+      }
+    }
+    .banklist li a .mask {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,.8);
+      z-index: 900;
+      opacity: .6;
+      transition-duration: .4s;
+      display: none;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+    }
+    .banklist li a .btn {
+      position: absolute;
+      top: 130px;
+      width: 100px;
+      height: 35px;
+      line-height: 35px;
+      display: block;
+      padding: 0px;
+      z-index: 999;
+      border: 0px;
+      display: none;
+    }
+    .banklist li a .btn.delete {
+      background: #f4f8fb;
+      color: #5fb897;
+      left: 30px;
+    }
+    .banklist li a .btn.delete:hover {
+      background: #5fb897;
+      color: #ffffff;
+    }
+    .banklist li a .btn.edit {
+      right: 27px;
+      background: #5fb897;
+      color: #ffffff;
+    }
+    .banklist li a .btn.edit:hover {
+      background: #46987a;
+    }
+    .banklist li a .bank {
+      width: 100%;
+      height: 110px;
+      background: #ffffff;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .banklist li a .bank img {
+      width: 180px;
+      height: 52px;
+      margin-top: 16px;
+      margin-bottom: 9px;
+    }
+    .banklist li a .bank .account {
+      font-size: 14px;
+      color: #333333;
+    }
+    .banklist li a .info {
+      height: 14px;
+      line-height: 14px;
+      margin-bottom: 14px;
+    }
+    .banklist li a .info span {
+      font-size: 14px;
+      color: #999999;
+    }
+    .banklist li a .info label {
+      font-size: 14px;
+      color: #333333;
+    }
+  }
+  .no_result {
+    height: 500px;
+    background: #ffffff;
+    text-align: center;
+    img {
+      width: 177px;
+      height: 128px;
+      margin-top: 145px;
+    }
+    p {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #adc3e8;
+      text-indent: 15px;
+    }
+  }
+}
+.addbank_view {
+  form {
+    padding-left: 50px;
+  }
+  .form-group {
+    height: 70px;
+  }
+  .form-group:last-child {
+    height: 55px;
+  }
+  .label-control {
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #999999;
+  }
+  .input-control {
+    height: 38px;
+    width: 298px;
+    text-indent: 20px;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+  }
+  .input-control.getcode {
+    width: 148px;
+    margin-right: 25px;
+  }
+  .select-control {
+    height: 40px;
+    width: 300px;
+  }
+  .el-select {
+    width: 100%;
+  }
+  .el-checkbox {
+    margin-left: 80px;
+  }
+  .Captcha {
+    display: block;
+    height: 38px;
+    width: 128px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid #5fb897;
+    background: #5fb897;
+  }
+  .Captcha.disabled {
+    border-color: #e8e8e8;
+    background: #e8e8e8;
+    color: #999999;
+  }
+  .Captcha:hover {
+    background: #46987a;
+  }
+  .error_tips {
+    height: 10px;
+    text-indent: 80px;
+  }
+  .confirm {
+    padding: 25px 0px 55px 0px;
+    .icon-tishi {
+      display: inline-block;
+      font-size: 46px;
+      color: #ffa95d;
+      margin-right: 25px;
+      margin-left: 130px;
+    }
+    .tips {
+      height: 46px;
+      line-height: 46px;
+      font-size: 16px;
+      color: #333333;
+    }
+  }
+  .operate {
+    margin-right: 67px;
+  }
+}
